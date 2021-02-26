@@ -1,0 +1,153 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 395px;
+  overflow: hidden;
+  background-color: #333;
+border: 2px solid #111;
+}
+
+li {
+float: left;
+border-bottom: 2px solid #111;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+width: auto;
+}
+
+li a:hover {
+background-color: coral;
+text-decoration: underline;
+background: repeating-linear-gradient(90deg,yellow 0px,blue 40px,green 40px,red 80px);
+}
+
+li:last-child {
+border-bottom: none;
+}
+
+@media screen and (min-width: 420px) {
+   body {
+   background: purple;
+   margin: 2px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+ul.topnav li.right, 
+ul.topnav li {float: none;}
+}
+
+@media screen and (min-width: 794px) {
+   body{
+       background: turquoise;
+       margin: 8px;
+   }
+}
+
+@media screen and (min-width: 1020px) {
+  body{
+      background: silver;
+      margin: 26px;
+      font-size: 25px;
+      max-width: 1020px;
+      text-align: center;
+      text-decoration: none;
+  }
+}
+@media screen and (min-width: 1366px) {
+  body{
+      background: silver;
+      margin: 22px;
+      font-size: 24px;
+      max-width: 1366px;
+      text-align: center;
+      text-decoration: none;
+  }
+}
+@media screen and (min-width: 1536px) {
+  body{
+      background: silver;
+      margin: 26px;
+      font-size: 25px;
+      max-width: 1536px;
+      text-align: center;
+      text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  body{
+      background: silver;
+      margin: 28px;
+      font-size: 30px;
+      max-width: 120px;
+      text-align: center;
+      text-decoration: none;
+  }
+}
+
+h1 {
+text-decoration: underline;
+width: auto;
+background: repeating-linear-gradient( 90deg, purple 0px, green 300px );
+
+}
+/*_________*/
+
+body {
+margin: 0;
+}
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+/*______*/
+
+.one {
+background-color: coral;
+}
+.two {
+background-color: #485;
+}
+.three {
+background-color: #936;
+}
+.four {
+background-color: #592;
+}
